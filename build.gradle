@@ -129,7 +129,7 @@ versionInjection {
 
 test {
     useTestNG() {
-        suites 'src/test/resources/testng.xml'
+        suites 'src/test/resources/testng-single.xml'
     }
     testLogging.showStandardStreams = true
     systemProperties = System.getProperties()

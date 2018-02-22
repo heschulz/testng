@@ -5,14 +5,11 @@
 
   <parameter name="n" value="42" />
 
-  <test name="Regression2" preserve-order="true">
-    <parameter name="string" value="s"/>
 
-    <groups>
-    </groups>
 
+  <test name="RetryAnalyzer">
     <classes>
-      <class name="test.mannotation.MAnnotationSampleTest" />
+      <class name="test.retryAnalyzer.RetryAnalyzerTest" />
     </classes>
   </test>
 
